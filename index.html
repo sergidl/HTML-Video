@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="src/script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<!-- https://www.w3schools.com/html/html_media.asp -->
+<!-- https://ourcodeworld.com/articles/read/148/top-7-best-html5-media-player-javascript-plugins -->
+
+<body>
+    <div class="container">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#video">video</a></li>
+                <li><a href="#youtube">youtube</a></li>
+                <li><a href="#audio">audio</a></li>
+                <li><a href="#plugin_PDF">plugin PDF</a></li>
+                <li><a href="#plugin_youtube">plugin youtube</a></li>
+                <li><a href="#plugin_video">plugin video</a></li>
+
+            </ul>
+        </nav>
+
+        <!-- <video src="video.mp4" width="640" height="480" poster="descarga.jpeg" type="video/mp4" controls></video>
+    <audio src="audio.mp3"></audio> -->
+<br><br><br><br><br><br>
+        <!-- Note: Chromium browsers do not allow autoplay in most cases. However, muted autoplay is always allowed. -->
+        <section id="images">
+            <div class="h">
+                <div class="tit_index_video">
+                    <h1>Imagenes...</h1>
+            <div class="contain">
+                <div class="card">
+                    <div class="card--image">
+                        <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                            alt="image">
+                    </div>
+                    <div class="card--info info--1">
+                        <span class="info--text">SPACIOUS</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                    <div class="card--info info--2">
+                        <span class="info--text">ACCESSIBLE</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                    <div class="card--info info--3">
+                        <span class="info--text">MArt</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card--image">
+                        <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                            alt="image">
+                    </div>
+                    <div class="card--info info--1">
+                        <span class="info--text">SPACIOUS</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                    <div class="card--info info--2">
+                        <span class="info--text">ACCESSIBLE</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card--image">
+                        <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                            alt="image">
+                    </div>
+                    <div class="card--info info--1">
+                        <span class="info--text">SPACIOUS</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                    <div class="card--info info--2">
+                        <span class="info--text">ACCESSIBLE</span>
+                        <div class="icon">
+                            <ion-icon name="add-outline"></ion-icon>
+                        </div>
+                        <div class="info--image">
+                            <img src="https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png?w=640"
+                                alt="info image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video">
+            <div class="h">
+                <div class="tit_index_video">
+                    <h1>Video de pajarito cantando</h1>
+                    <video width="320" height="240" autoplay muted controls>
+                        <source src="src/movie.mp4" type="video/mp4">
+                        <source src="src/movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                        <track src="src/movies-es.vtt" kind="subtitles" srclang="es" label="Español">
+                        <track src="src/movies-en.vtt" kind="subtitles" srclang="en" label="English">
+                    </video>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
