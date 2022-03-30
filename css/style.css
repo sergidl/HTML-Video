@@ -95,7 +95,7 @@ video {
   .card {
     position: relative;
     width: 260px;
-    height: 320px;
+    height: auto;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.014), 0 6.7px 5.3px rgba(0, 0, 0, 0.02), 0 12.5px 10px rgba(0, 0, 0, 0.025), 0 22.3px 17.9px rgba(0, 0, 0, 0.03), 0 41.8px 33.4px rgba(0, 0, 0, 0.036), 0 100px 80px rgba(0, 0, 0, 0.05);
   }
   .card--image {
@@ -115,7 +115,7 @@ video {
     --size: 20px;
     width: var(--size);
     height: var(--size);
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(255, 255, 255, 0.75);
     border-radius: 2px;
     position: absolute;
     transition: width 550ms ease, height 550ms ease, right 550ms ease, background 550ms ease;
@@ -137,18 +137,18 @@ video {
 
   /* Posicion box */
   .card--info.info--1 {
-    bottom: 47%;
-    right: 80%;
+    bottom: 15%;
+    right: 15%;
   }
   .card--info.info--1 .info--image img {
-    top: -80%;
-    left: -20%;
+    top: -195%;
+    left: -240%;
   }
 
 
   .card--info.info--2 {
-    bottom: 25%;
-    right: 15%;
+    bottom: 50%;
+    right: 50%;
   }
   .card--info.info--2 .info--image img {
     right: -20%;
@@ -157,12 +157,12 @@ video {
 
 
   .card--info.info--3 {
-    bottom: 55%;
-    right: 15%;
+    bottom: 80%;
+    right: 48%;
   }
   .card--info.info--3 .info--image img {
-    right: -20%;
-    bottom: -80%;
+    right: -130%;
+    bottom: -250%;
   }
 
 
@@ -217,11 +217,11 @@ video {
     opacity: 1;
   }
   .card:hover .card--info.info--1 {
-    right: 71%;
+    right: 11%;
     transition-delay: 100ms;
   }
   .card:hover .card--info.info--2 {
-    right: -10%;
+    right: 60%;
   }
   .card:hover .card--info .info--image img {
     opacity: 1;
